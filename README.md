@@ -13,11 +13,18 @@ The model was trained to classify **banana**, **tomato**, and **cucumber** using
 
 ## 📁 Project Structure
 
+```plaintext
 project/
-├── model/ # Folder containing the trained model
-│ └── fruit_model.h5
-├── main.py # Python script to run the model and make predictions
-└── README.md # Project documentation (this file)
+│
+├── model/
+│   ├── keras_model.h5        # Trained AI model exported from Teachable Machine
+│
+├── from_keras.py             # Python code to load and run the model
+├── label.txt                 # Text file containing labels (e.g., banana, tomato, etc.)
+├── single_banana.jpg         # Example input image of a banana
+└── README.md                 # This documentation file
+```
+
 ## 🚀 How to Run
 
 1. Export your model from Teachable Machine in **Keras (.h5)** format and place it in the `model/` folder.
