@@ -18,6 +18,7 @@ project-folder/
 ├── main.py          # Python script to run the model
 └── README.md        # Project documentation
 
+
 ## 🚀 How to Run
 
 1. Export your model from Teachable Machine in **Keras (.h5)** format and place it in the `model/` folder.
