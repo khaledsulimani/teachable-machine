@@ -9,16 +9,15 @@ The model was trained to classify **banana**, **tomato**, and **cucumber** using
 - **Teachable Machine** – for training the image classification model  
 - **Python** – to run the model  
 - **TensorFlow / Keras** – to load and use the trained model  
-- **OpenCV** (optional) – for camera input and image handling  
+- **OpenCV** (optional) – for camera input and image handling
 
 ## 📁 Project Structure
 
-project-folder/
-├── model/           # Contains the trained model files (e.g. .h5 or model.json + weights)
-├── main.py          # Python script to run the model
-└── README.md        # Project documentation
-
-
+project/
+├── model/ # Folder containing the trained model
+│ └── fruit_model.h5
+├── main.py # Python script to run the model and make predictions
+└── README.md # Project documentation (this file)
 ## 🚀 How to Run
 
 1. Export your model from Teachable Machine in **Keras (.h5)** format and place it in the `model/` folder.
