@@ -13,9 +13,10 @@ The model was trained to classify **banana**, **tomato**, and **cucumber** using
 
 ## 📁 Project Structure
 
-├── model/ # Contains the trained model files
-├── main.py # Python script to run the model
-└── README.md # Project documentation
+project-folder/
+├── model/           # Contains the trained model files (e.g. .h5 or model.json + weights)
+├── main.py          # Python script to run the model
+└── README.md        # Project documentation
 
 ## 🚀 How to Run
 
