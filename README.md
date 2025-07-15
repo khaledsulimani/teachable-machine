@@ -31,3 +31,5 @@ project/
 2. Install dependencies:
    ```bash
    pip install tensorflow opencv-python
+![صورة واتساب بتاريخ 1447-01-20 في 13 04 26_786381e3](https://github.com/user-attachments/assets/29f8a63b-d1ec-4b2a-91cd-d035ef787319)
+![صورة واتساب بتاريخ 1447-01-20 في 13 09 16_aec70239](https://github.com/user-attachments/assets/278bc405-96d2-4a20-89dc-4311c4017397)
